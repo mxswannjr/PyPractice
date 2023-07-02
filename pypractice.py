@@ -228,5 +228,22 @@ print(f'My favorite movie is {movie}') #String literal - f string LATEST AND GRE
 nl()
 
 #Dictionaries - Key Value Pairs, that use {} 
+drinks = {"Pineapple":6, "Cranberry":5, "Pear":3, "Apple":8}
+#In this example, the fruit is the key, and the price is the value
+print(drinks)
+nl()
+employees = {"Finance":["Bob", "Linda" , "John"], "IT": ["Cam", "Mario", "Tobias"], "Marketing": ["Karen","Gia"]}
+print(employees)
 
+employees["Legal"] = ["Papa Ray"] #Adds new key:value pair
+print(employees)
+employees.update({"Sales":["Jovan","Natalie"]}) #also adds another key:value pair
+print(employees)
+nl()
+drinks["Pineapple"] = 9 #Updates value of the called key
+print(drinks)
+print(drinks.get("Pineapple"))
+nl()
+print('Please see code for proper direction of output - Thank you!')
+#END OF SCRIPT
 
